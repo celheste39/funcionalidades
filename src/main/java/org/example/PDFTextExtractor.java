@@ -13,6 +13,7 @@ import java.io.IOException;
             System.out.println(readParaFromPDF("Paz y Salvo.pdf",1, "01", "88"));
             //Enter FilePath, Page Number, StartsWith, EndsWith
         }
+
         public static String readParaFromPDF(String pdfPath, int pageNo, String strStartIndentifier, String strEndIdentifier) {
             String returnString = "";
             try {
